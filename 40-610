@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>work4-610-13</title>
+    <title>work4-610-40</title>
 </head>
 <body>
 <?php
@@ -18,7 +18,7 @@
         'นายศุภโชค ปิยเจริญสิทธิ์', 'นางสาวสุภาวิตา บุญโภคอุดม', 'นางสาวพิมพ์ชนก สุขนุ่ม', 'นางสาววรณัน บุหงาเกษมสุข',
         'นางสาวอภิชญา ตะโกจีน', 'นางสาวนัทธมน วชิรสุดเลขา', 'นางสาวสิรินดา อยู่เมฆ', 'นางสาวปภาดา เหลืองประภา',
         'นางสาวณัฐชา เท้าสมบุญ', 'นางสาวธัญชนก สุดธง', 'นางสาวกัญญวรา สายโส', 'นางสาวนภัสสร กิจจารักษ์'];
-    $key = array_search('นายวงศ์วริศ ชัยกุลประดิษฐ์', $name);
+    $key = array_search('นางสาว นภัสสร กิจจารักษ์', $name);
     if ($key !== false) {
         $fname = $name[$key];
         unset($name[$key]);
